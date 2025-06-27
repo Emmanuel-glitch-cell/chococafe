@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ChocoCafé es un espacio dedicado al chocolate artesanal y café peruano. Descubre sabores auténticos, productos naturales y una experiencia cálida.">
+    <title>ChocoCafé | Chocolate artesanal y café peruano de especialidad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes_para_practicar/hot-chocolate-cup-3d-emoji-600nw-2544889645.webp" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Chococafé</h1>
+        <nav class="navegador">
+            <ul class="lista_ul">
+                <li class="lista_li"><a class="hipervinculo" href="#inicio">Inicio</a></li>
+                <li class="lista_li"><a class="hipervinculo" href="#carta">Carta</a></li>
+                <li class="lista_li"><a class="hipervinculo" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content_principal">
+        <section id="inicio">
+            <h2 class="subtitle">Conoce sobre Chococafé</h2>
+            <p class="contenido_inicio">
+                En ChocoCafé celebramos el auténtico sabor del Perú a través del chocolate artesanal y el café de especialidad para llevar a casa. Somos un espacio dedicado a los amantes del buen gusto, donde puedes descubrir productos elaborados con dedicación, origen y mucha identidad peruana.
+            </p>
+        </section>
+        <section id="carta">
+            <h2 class="subtitle">Carta</h2>
+            <ol class="list_orden">
+                <li class="li_carta">
+                    <article>
+                        <h3>Café Artesanal de Cusco</h3>
+                    <p class="content-carta">
+                        Café de especialidad 100% peruano, seleccionado de fincas sostenibles en Cusco. Disfrútalo en métodos filtrados como V60 o Chemex, donde resaltan sus notas florales, frutales y un cuerpo suave. Perfecto para paladares que aprecian el café en su estado más puro.
+                    </p>
+                    </article>
+                    <img src="imagenes_para_practicar/cafe_cusco.jpeg" alt="imagen referencial del cafe artesanal de cusco">
+                </li>
+                <li class="li_carta">
+                    <article>
+                        <h3>Chocolate Caliente Ayacuchano</h3>
+                    <p class="content-carta">
+                        Espeso, aromático y reconfortante. Elaborado con chocolate artesanal de Ayacucho, esta bebida tradicional se prepara con leche entera o vegetal, realzando el sabor intenso del cacao peruano. Endulzado suavemente con panela.
+                    </p>
+                    </article>
+                    <img src="imagenes_para_practicar/chocolate_caliente_ayacuchano.jpg" alt="imagen referencial del chocolate caliente ayacuchano">
+                </li>
+                <li class="li_carta">
+                    <article>
+                        <h3>Tarta de Cacao Chuncho con Frutos Rojos</h3>
+                    <p class="content-carta">
+                        Un postre de autor. Base de tarta crujiente con ganache de chocolate chuncho (origen Cusco, 75% cacao), coronado con frutos rojos frescos. Equilibrio perfecto entre dulzor, acidez y profundidad de sabor.
+                    </p>
+                    </article>
+                    <img src="imagenes_para_practicar/tarta_de_cacao_con_frutos_rojos.jpg" alt="imagen referencial a la tarta de cacao chuncho con frutos rojos">
+                </li>
+                <li class="li_carta">
+                    <article>
+                        <h3>Espresso Doble Andino</h3>
+                    <p class="content-carta">
+                        Corto, intenso y lleno de carácter. Nuestro espresso está hecho con una mezcla exclusiva de granos del norte del Perú (Cajamarca y Amazonas), tostados localmente para preservar su frescura. Ideal solo o como base para capuchinos.
+                    </p>
+                    </article>
+                    <img src="imagenes_para_practicar/espresso_andino.jpg" alt="imagen referencial al espresso doble andino">
+                </li>
+                <li class="li_carta">
+                    <article>
+                        <h3>Bombones Artesanales</h3>
+                    <p class="content-carta">
+                        Mini joyas de chocolate rellenas con ingredientes peruanos: maracuyá, café, lúcuma y maní crocante. Hechos a mano por chocolateros locales. Una experiencia que despierta todos los sentidos.
+                    </p>
+                    </article>
+                    <img src="imagenes_para_practicar/imagen_de_bombones.jpg" alt="imagen referencial a los bombones artesanales">
+                </li>
+            </ol>
+        </section>
+        <section id="contacto">
+            <h2 class="subtitle">Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Informacion Personal</legend>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre completo" required>
+                    <label for="correo">Email:</label>
+                    <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo electronico" required>
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="+51 987 654 321" required>
+                    <label for="ubicacion">Ubicación:</label>
+                    <select name="ubicacion" id="ubicacion">
+                        <option value="lima">Lima</option>
+                        <option value="cusco">Cusco</option>
+                        <option value="ayacucho">Ayacucho</option>
+                        <option value="cajamarca">Cajamarca</option>
+                    </select>
+                    <label for="comentario">Comentario:</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="content-footer">Comunicarse directamente tambien por el correo dando click en el siguiente enlace <a class="hipervinculo" href="mailto:ejemplo@gmail.com" target="_blank" aria-label="Enviar correo a ChocoCafé">correo</a></p>
+    </footer>
+</body>
+</html>
